@@ -1,6 +1,4 @@
-# InfoGan-Minist
-Tensorflow implementation of InfoGan
-# InfoGan-Minist
+# InfoGan-Mnist
 
 Tensorflow Implementation of InfoGan
 
@@ -13,9 +11,12 @@ Learning rate is 2e-4 for D, Q and G
 
 ## Run Model
 
-Train model: python train.py. To check parameters, see python train.py -h
+To run model, tensorflow >=1.0 and python 3.6 is required
 
-Run Model: python inference.py 
+Model training: python train.py.  To check parameters, see python train.py -h
+
+Model inference: python inference.py 
+
 
 ## Results:
 
@@ -30,6 +31,7 @@ Run Model: python inference.py
 ![img](https://github.com/WoshidaCaiB/InfoGan-Mnist/blob/master/images/results3.png)
 
 While varying the categorical codes, the model cannot generate 8 well... The latent information to generate digit 8 is hidden in continuous code rather than in categorical code
+
 
 ## Results for model with only categorical latent codes
 
